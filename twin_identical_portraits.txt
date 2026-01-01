@@ -1,0 +1,58 @@
+PROJECT: Interactive Portfolio Website with Blob Cursor Reveal Effect
+
+===== PHASE 1: IMAGE GENERATION =====
+
+Generate two identical portraits of a girl with the exact same pose, positioning, and framing:
+
+Image 1: Girl wearing a plain black t-shirt who seems to work in corporate. Use provided reference photo.
+
+Image 2: Girl wearing Nepali traditional clothing with her hair braided.
+
+Both images must have:
+- Centered composition
+- Head and shoulders directly facing camera at eye level
+- Eyes looking straight ahead
+- Neutral expression
+- Framed from top of head to upper chest just below shoulders
+- Same exact head tilt and body angle
+- Professional studio lighting from the front
+- Sharp focus
+- Photorealistic
+- Solid white background
+- Passport photo style
+- High resolution 4K quality
+- Positioning must be pixel-perfect identical so images can be overlaid perfectly
+
+
+===== PHASE 2: WEBSITE DEVELOPMENT =====
+
+LAYOUT:
+- Full-screen hero section using [BLACK T-SHIRT IMAGE] as the background
+- "SANS" and "LAMSAL" stacked vertically in the top left corner, in black
+- "PROJECTS" button in the top right - simple text, black color
+- Bottom right corner: social media icons for Instagram, X, YouTube, and LinkedIn as solid black icons with links
+
+THE INTERACTIVE ELEMENT:
+- Create a blob cursor effect that follows the mouse around
+- The blob should feel smooth and organic with a subtle delay as it trails behind the cursor
+- This blob acts like a window that reveals [NEPALI TRADITIONAL CLOTHING IMAGE] underneath
+- As users move their cursor, they unveil the version with traditional clothing
+- When cursor moves faster, add smaller blobs (3-5) that trail behind creating a tail effect with fading shapes
+
+CURSOR SPECIFICATIONS:
+- Shape: Organic flowery/petal shape (NOT circular, NOT morphing)
+- Size: Large (approximately 320px)
+- Movement: Smooth with minimal delay, responsive feel
+- Should maintain consistent flower form (no shape morphing)
+- Trailing blobs follow with fade effect
+
+INTERACTION DETAILS:
+- When blob hovers over any text (name, button, or social icons), those elements turn white for readability
+- All transitions use 300ms timing for smoothness
+- Blob reveal must line up perfectly with both images - zero misalignment when traditional clothing version shows through
+
+TECHNICAL REQUIREMENTS:
+- Both images must be perfectly aligned for seamless reveal effect
+- Custom cursor replaces default cursor
+- Smooth, organic movement with easing
+- Professional, polished execution
